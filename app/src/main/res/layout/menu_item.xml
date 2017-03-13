@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/list_selector"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <to.us.datagrip.accountability.views.SquareImageView
+        android:id="@+id/primaryImage"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/floating" />
+
+    <TextView
+        android:id="@+id/primaryText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginStart="@dimen/medium"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/secondaryText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textSize="12sp" />
+</LinearLayout>

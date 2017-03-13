@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_hd"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/background_hd"
+        android:orientation="vertical">
+
+        <to.us.datagrip.accountability.views.SquareImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+
+            android:src="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Griffins Oringo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@Orngo" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#54759e</color>
+    <color name="colorPrimaryDark">#435e7e</color>
+    <color name="colorPrimaryLight">#B2EBF2</color>
+    <color name="colorAccent">#4d83b3</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#dcdcdc</color>
+    <color name="colorListItemBackground">#fff</color>
+    <color name="colorListBackground">#f1f1f1</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorListItemStroke">#dfd6d3</color>
+    <color name="crop_button_bar">#f3f3f3</color>
+    <color name="crop_button_text">#666666</color>
+    <color name="crop_selector_pressed">#1a000000</color>
+    <color name="crop_selector_focused">#77000000</color>
+    <color name="buttonPressed">#931e88e5</color>
+    <color name="colorDanger">#D32F2F</color>
+</resources>

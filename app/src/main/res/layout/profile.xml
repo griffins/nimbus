@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="@dimen/medium">
+
+    <to.us.datagrip.accountability.views.SquareImageView
+        android:id="@+id/profPic"
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.35"
+        android:src="@drawable/logo_avatar" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+</LinearLayout>
