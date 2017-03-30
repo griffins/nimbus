@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"> Private Books</string>
+    <string name="app_name">Nimbus</string>
     <string name="action_settings">Settings</string>
     <string name="app_home">Private Books</string>
     <string name="date_picker_title">Select date</string>

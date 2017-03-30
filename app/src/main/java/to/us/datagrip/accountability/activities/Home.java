@@ -23,6 +23,7 @@ import android.widget.TextView;
 
 import com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.stephentuso.welcome.WelcomeHelper;
 
 import java.util.Date;
 import java.util.List;
@@ -50,10 +51,16 @@ public class Home extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (!Settings.getInstance().isSetup()) {
-            Intent intent = new Intent(this, Setup.class);
+        if (!Settings.getInstance().getBoolean("welcome_screen", false)) {
+            WelcomeHelper welcomeScreen = new WelcomeHelper(this, Intro.class);
+            welcomeScreen.show(savedInstanceState);
+            finish();
+            return;
+        } else if (!Settings.getInstance().isSetup()) {
+            Intent intent = new Intent(this, Profile.class);
             startActivity(intent);
             finish();
+            return;
         }
 
         setContentView(R.layout.activity_accountability);

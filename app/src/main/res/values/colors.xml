@@ -18,4 +18,5 @@
     <color name="crop_selector_focused">#77000000</color>
     <color name="buttonPressed">#931e88e5</color>
     <color name="colorDanger">#D32F2F</color>
+    <color name="colorGreen">#00796B</color>
 </resources>

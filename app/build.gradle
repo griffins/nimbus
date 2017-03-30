@@ -24,10 +24,11 @@ dependencies {
     compile project(path: ':sliddingmenu')
     compile project(path: ':textdrawable')
     compile project(path: ':chartlib')
-    compile 'com.android.support:appcompat-v7:25.1.1'
-    compile 'com.android.support:appcompat-v7:25.1.1'
-    compile 'com.android.support:recyclerview-v7:25.1.1'
-    compile 'com.android.support:design:25.1.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
     compile 'com.squareup:android-times-square:1.6.5@aar'
     compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.stephentuso:welcome:1.2.1'
 }

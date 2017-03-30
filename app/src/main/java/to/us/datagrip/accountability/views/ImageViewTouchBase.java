@@ -258,7 +258,7 @@ public abstract class ImageViewTouchBase extends ImageView {
         return getScale(suppMatrix);
     }
 
-    // Setup the base matrix so that the image is centered and scaled properly.
+    // Welcome the base matrix so that the image is centered and scaled properly.
     private void getProperBaseMatrix(RotateBitmap bitmap, Matrix matrix, boolean includeRotation) {
         float viewWidth = getWidth();
         float viewHeight = getHeight();
