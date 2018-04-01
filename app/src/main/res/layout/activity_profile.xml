@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:baselineAligned="false"
     android:orientation="vertical">
-
-    <RelativeLayout
-        android:id="@+id/parentPanel"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="to.us.datagrip.accountability.activities.Profile"
-        tools:showIn="@layout/activity_profile">
-
-        <include
-            android:id="@+id/headerView"
-            layout="@layout/inline_profile" />
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/profileScrollView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/headerView"
-            android:divider="@null"
-            android:scrollbars="none" />
-
-    </RelativeLayout>
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -38,14 +15,10 @@
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:src="@drawable/floating_camera"
-        app:backgroundTint="@color/colorIcons"
-        app:layout_anchor="@id/headerView"
-        app:layout_anchorGravity="bottom|right|end" />
-
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/profileScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none" />
 </android.support.design.widget.CoordinatorLayout>

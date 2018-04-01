@@ -69,16 +69,6 @@ public class Home extends BaseActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        FloatingActionButton addFab = (FloatingActionButton) findViewById(R.id.fab);
-        assert addFab != null;
-        addFab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Home.this, AddAccount.class);
-                startActivity(intent);
-            }
-        });
-
         Resources resources = getResources();
         drawerArrowDrawable = new DrawerArrowDrawable(this);
         drawerArrowDrawable.setColor(resources.getColor(android.R.color.white));
